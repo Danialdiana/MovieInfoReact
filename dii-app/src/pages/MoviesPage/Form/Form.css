@@ -1,0 +1,48 @@
+input{
+  align-content: center;
+  width: 500px;
+  height: 50px;
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 22px;
+  letter-spacing: 0.8px;
+  word-spacing: 3.2px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: italic;
+  font-variant: normal;
+  text-transform: capitalize;
+  border-radius: 20px;
+  background: #ffffff;
+
+}
+@media screen and (max-width: 480px) {
+  input{
+    max-width: 300px;
+  }
+}
+button{
+  display: inline-block;
+  width: 60px;
+  margin-left: 20px;
+  border-radius: 10px;
+  height: 50px;
+  border: 0;
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.6;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  outline: none;
+  background: #ffffff;
+}
+button:hover {
+  background-color: white;
+}
+.inCon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
